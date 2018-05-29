@@ -1,0 +1,102 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+
+	<servlet>
+		<servlet-name>Index</servlet-name>
+		<servlet-class>com.controller.IndexController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Home</servlet-name>
+		<servlet-class>com.controller.IndexController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CarStore</servlet-name>
+		<servlet-class>com.controller.CarStoreController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Car</servlet-name>
+		<servlet-class>com.controller.CarController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>com.controller.RegisterController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.controller.LoginController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.controller.LogoutController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BuyCar</servlet-name>
+		<servlet-class>com.controller.BuyCarController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Report</servlet-name>
+		<servlet-class>com.controller.ReportController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddCar</servlet-name>
+		<servlet-class>com.controller.AddCarController</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ChoseType</servlet-name>
+		<servlet-class>com.controller.CarTypeController</servlet-class>
+	</servlet>
+	
+
+	<servlet-mapping>
+		<servlet-name>Index</servlet-name>
+		<url-pattern></url-pattern>
+	</servlet-mapping>	
+	<servlet-mapping>
+		<servlet-name>Home</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping> 
+		<servlet-name>CarStore</servlet-name>
+		<url-pattern>/car-store</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Car</servlet-name>
+		<url-pattern>/car</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BuyCar</servlet-name>
+		<url-pattern>/buy-car</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Report</servlet-name>
+		<url-pattern>/report</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddCar</servlet-name>
+		<url-pattern>/addCar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ChoseType</servlet-name>
+		<url-pattern>/choseType</url-pattern>
+	</servlet-mapping>
+	
+
+
+</web-app>
